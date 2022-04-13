@@ -19,5 +19,5 @@ class Level2(Level):
         pygame.mixer.music.set_volume(volume)
 
     def tiles(self):
-        return pygame.image.load('resources/images/pasir.jpg')
+        return pygame.image.load('resources/images/floor.jpg')
         

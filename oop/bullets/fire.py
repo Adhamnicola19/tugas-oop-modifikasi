@@ -8,10 +8,10 @@ class Fire(Bullet):
 		Bullet.__init__(self, Fire.max_bullet)
 
 	def tiles(self):
-		return pygame.image.load('resources/images/bullet.png')
+		return pygame.image.load('resources/images/13.png')
 
 	def shoot_sound(self):
-		tmp = pygame.mixer.Sound("resources/audio/shoot.wav")
+		tmp = pygame.mixer.Sound("resources/audio/pistol.wav")
 		tmp.set_volume(0.05)
 		tmp.play()
 
